@@ -26,6 +26,7 @@ public class BaseClass {
 	@BeforeMethod
 	public void bmConfig() {
 		System.out.println("Logged in to the application");
+		System.out.println("This is test for GitHub");
 	}
 	
 	@AfterMethod
